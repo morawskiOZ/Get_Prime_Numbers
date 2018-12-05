@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		link(rel='stylesheet', href='/dist/style.css')
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+
+	body
+		block header
+
+		block content
+			.inner
+				h1 Find prime numbers!
+				h3 Choose the range
+					.search
+						input.search__input(type="text" placeholder="From" name="search" id="firstNumber")
+						input.search__input(type="text" placeholder="To" name="search" id="secondNumber")
+						button.button.numbers Show the numbers!
+						.search__results.flex
+
+
+		block scripts
+			script(src="/dist/App.bundle.js")

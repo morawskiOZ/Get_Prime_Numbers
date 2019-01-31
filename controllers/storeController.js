@@ -1,4 +1,5 @@
 const isPrime = require('../handlers/isPrime');
+
 exports.homePage = (req, res) => {
   res.render('main');
 };

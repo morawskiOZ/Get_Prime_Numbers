@@ -23,5 +23,7 @@ Project created with:
 
 ## Setup
 
-Simply go to
-<https://prime-numbers-vbmsgwdqwr.now.sh/>
+Simply go to:   
+<https://prime-numbers-vbmsgwdqwr.now.sh/>   
+
+It is deployed on Now so please be patient and give it a minute to load.

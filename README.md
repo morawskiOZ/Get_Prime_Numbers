@@ -24,6 +24,6 @@ Project created with:
 ## Setup
 
 Simply go to:   
-<https://where-are-my-primes.herokuapp.com//>   
+<https://where-are-my-primes.herokuapp.com>   
 
 It is deployed on Heroku so please be patient and give it a few seconds to load.

@@ -9,6 +9,13 @@ const secondNumber = search.querySelector("#secondNumber");
 const searchButton = search.querySelector("button.button.numbers");
 const searchResult = search.querySelector(".search__results");
 
+window.addEventListener("keydown", (event) => {
+	if (event.code === 'Enter'){
+		searchButton.click()
+	}
+})
+
+
 searchButton.on("click", () =>{
 	searchResult.style.display = "none";
 	

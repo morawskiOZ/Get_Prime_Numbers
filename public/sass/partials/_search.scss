@@ -1,5 +1,4 @@
 .search {
-
   margin-top: 2vh;
   position: relative;
   width: 100%;
@@ -61,15 +60,23 @@ input, textarea {
   font-family: 'Panama';
   font-weight: 600;
   width: 30vw;
-  font-size: 4vw;
+  font-size: 5vw;
   max-width: 300px;
   cursor: pointer;
-
   outline:none;
   transition: box-shadow .3s;
   border-radius:10px;
   border: 1px solid #ccc;
   float: left;
+  @media screen and (min-width: $break-medium) {
+    font-size: 4.4vw;
+  }
+  @media screen and (min-width: $break-large) {
+    font-size: 4.1vw;
+  }
+  @media screen and (min-width: $break-huge) {
+    font-size: 2.4vw;
+  }
 }
 .button:hover {
   box-shadow: 0 0 11px rgb(0, 7, 4);

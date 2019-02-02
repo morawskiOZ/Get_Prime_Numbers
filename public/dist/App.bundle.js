@@ -933,6 +933,12 @@ function pickTheNumbers(search) {
 	var searchButton = search.querySelector("button.button.numbers");
 	var searchResult = search.querySelector(".search__results");
 
+	window.addEventListener("keydown", function (event) {
+		if (event.code === 'Enter') {
+			searchButton.click();
+		}
+	});
+
 	searchButton.on("click", function () {
 		searchResult.style.display = "none";
 

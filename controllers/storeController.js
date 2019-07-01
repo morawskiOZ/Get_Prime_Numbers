@@ -1,13 +1,13 @@
-const isPrime = require('../handlers/isPrime');
+const isPrime = require("../handlers/isPrime")
 
 exports.homePage = (req, res) => {
-  res.render('main');
-};
+  res.render("main")
+}
 
-exports.searchNumbers =  async (req, res)=>{
-	const firstNumber = parseInt(req.query.firstNumber);
-	const secondNumber = parseInt(req.query.secondNumber);
-	const result =   isPrime.generatePrime(firstNumber, secondNumber);
-	
-	res.json(result)
-};
+exports.searchNumbers = async (req, res) => {
+  const firstNumber = parseInt(req.query.firstNumber)
+  const secondNumber = parseInt(req.query.secondNumber)
+  const result = isPrime.generatePrime(firstNumber, secondNumber)
+
+  res.json(result)
+}
